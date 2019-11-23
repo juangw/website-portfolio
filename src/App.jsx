@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 import NavBarArea from './Components/navBarArea/NavBarArea';
 import HomeArea from './Components/homeArea/homeArea';
-import resumeArea from './Components/resumeArea/resumeArea';
-import projectsArea from './Components/projectsArea/projectsArea';
+import ResumeArea from './Components/resumeArea/resumeArea';
+import ProjectsArea from './Components/projectsArea/projectsArea';
 import {
   BrowserRouter as Router,
   Route,
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -15,9 +17,9 @@ function App() {
       <div className="App">
         <header className="App-header">
           <NavBarArea />
-          <Route exact path="/" render={(props) => <HomeArea/> }></Route>
-          <Route exact path="/resume" render={(props) => <resumeArea/> }></Route>
-          <Route exact path="/projects" render={(props) => <projectsArea/> }></Route>
+          <Route exact path="/" render={(props) => <HomeArea {...props}/> }></Route>
+          <Route exact path="/resume" render={(props) => <ResumeArea {...props}/> }></Route>
+          <Route exact path="/projects" render={(props) => <ProjectsArea {...props}/> }></Route>
         </header>
       </div>
     </Router>
