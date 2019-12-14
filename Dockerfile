@@ -12,5 +12,5 @@ RUN yarn build
 EXPOSE 8080
 
 # Command to run the app
-CMD ["serve", "-s", "build", "-l", "8080"]
+CMD ['serve', '-s', 'build', '-l', '8080']
 

@@ -23,7 +23,7 @@ class ProjectsArea extends Component {
     renderProjectFilter() {
         return(
             <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <Dropdown.Toggle variant='success' id='dropdown-basic'>
                 Dropdown Button
             </Dropdown.Toggle>
 
@@ -38,7 +38,7 @@ class ProjectsArea extends Component {
 
     render() {
         return(
-            <div>
+            <div className='body'>
                 {this.renderProjectFilter()}
                 <p>{this.state.filter}</p>
             </div>

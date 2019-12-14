@@ -11,7 +11,6 @@ class NavBarArea extends Component {
                     </li>
                     <li>
                         <a href={'/Resume-WilliamJuang.pdf'}>Resume</a>
-                        {/* <Link to="/Resume-WilliamJuang.pdf">Resume</Link> */}
                     </li>
                     <li>
                         <Link to="/projects">Projects</Link>
