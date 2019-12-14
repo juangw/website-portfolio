@@ -12,7 +12,7 @@ class homeArea extends Component {
 
     render() {
         return(
-            <div>
+            <div className='body'>
                 <p>Home</p>
             </div>
         )
