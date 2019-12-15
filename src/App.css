@@ -55,10 +55,22 @@ li a {
   color: white;
 }
 
-.body p {
+.body {
+  height: 100%;
+}
+
+.aboutme {
   color: white;
   text-align: center;
-  font-size: calc(4px + 2vmin);
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  font-size: calc(8px + 1vmin);
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -79,9 +91,15 @@ li a {
   padding: calc(1px + 1vmin);
 }
 
+.footer p {
+  color: white;
+  font-size: calc(5px + 1vmin);
+}
+
 .background {
   height: 70%;
   position: absolute;
+  padding-top: calc(5px + 1vmin);
   opacity: 0.3;
   z-index: -1;
   left: 0;

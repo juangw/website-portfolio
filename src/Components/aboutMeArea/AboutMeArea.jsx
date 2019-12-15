@@ -12,9 +12,12 @@ class AboutMeArea extends Component {
     render() {
         return(
             <div className='body'>
-                <div className='background'></div>
-                <p>My name is William Juang</p>
-                <p>I am a alumni from the University of Michigan School of Information</p>
+                <div className='background'>
+                    <div className='aboutme'>
+                        <p>My name is William Juang</p>
+                        <p>I am an alumni from the University of Michigan School of Information. Currently, I am working as a software engineer at Groundspeed Analytics</p>
+                    </div>
+                </div>
             </div>
         )
     }
