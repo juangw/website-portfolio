@@ -1,8 +1,7 @@
-import _ from 'lodash';
 import React, {Component} from 'react';
 
 
-class homeArea extends Component {
+class AboutMeArea extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -13,10 +12,12 @@ class homeArea extends Component {
     render() {
         return(
             <div className='body'>
-                <p>Home</p>
+                <div className='background'></div>
+                <p>My name is William Juang</p>
+                <p>I am a alumni from the University of Michigan School of Information</p>
             </div>
         )
     }
 };
 
-export default homeArea
+export default AboutMeArea

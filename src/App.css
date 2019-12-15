@@ -5,10 +5,9 @@ html, body {
 }
 
 .App-header {
-  background-color: black;
   display: flex;
   flex-direction: column;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(4px + 2vmin);
   color: white;
 }
 
@@ -26,7 +25,6 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  background-color: black;
   margin-bottom: 0 !important;
 }
 
@@ -54,8 +52,13 @@ li a {
 }
 
 .navBar a:hover {
-  background-color:grey;
   color: white;
+}
+
+.body p {
+  color: white;
+  text-align: center;
+  font-size: calc(4px + 2vmin);
 }
 
 .footer {
@@ -72,13 +75,15 @@ li a {
   padding: 0;
 }
 
-.body {
-  height: 100%;
+.footer a {
+  padding: calc(1px + 1vmin);
+}
+
+.background {
+  height: 70%;
   position: absolute;
   opacity: 0.3;
   z-index: -1;
-  top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
   background-repeat: no-repeat;

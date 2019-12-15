@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBarArea from './Components/navBarArea/NavBarArea';
-import HomeArea from './Components/homeArea/homeArea';
+import AboutMeArea from './Components/aboutMeArea/AboutMeArea';
 import ProjectsArea from './Components/projectsArea/projectsArea';
 import FooterArea from './Components/footerArea/footerArea';
 import {
@@ -18,7 +18,7 @@ function App() {
         <header className='App-header'>
           <NavBarArea />
         </header>
-        <Route exact path='/' render={(props) => <HomeArea {...props}/> }></Route>
+        <Route exact path='/' render={(props) => <AboutMeArea {...props}/> }></Route>
         <Route exact path='/projects' render={(props) => <ProjectsArea {...props}/> }></Route>
         <footer>
           <FooterArea />

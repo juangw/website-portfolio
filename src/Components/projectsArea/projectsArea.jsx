@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import React, {Component} from 'react';
 import ProjectArea from './projectArea';
 import Dropdown from 'react-bootstrap/Dropdown';
