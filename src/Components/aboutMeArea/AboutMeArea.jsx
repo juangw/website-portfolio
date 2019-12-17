@@ -14,8 +14,15 @@ class AboutMeArea extends Component {
             <div className='body'>
                 <div className='background'>
                     <div className='aboutme'>
-                        <p>My name is William Juang</p>
-                        <p>I am an alumni from the University of Michigan School of Information. Currently, I am working as a software engineer at Groundspeed Analytics</p>
+                        <p>
+                            <b>My name is William Juang</b>
+                        </p>
+                        <p>
+                            <b>I am an alumni from the University of Michigan School of Information. Currently, I am a Software Engineer at Groundspeed Analytics</b>
+                        </p>
+                        <p>
+                            <b>I love to code and am always looking to improve myself through learning and mentoring</b>
+                        </p>
                     </div>
                 </div>
             </div>
